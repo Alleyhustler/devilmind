@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<!-- Mirrored from hell-mouth.neocities.org/ds9/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 12 May 2025 17:54:26 GMT -->
+<head>
+    <title>Deep Space Nine | Hellmouth</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      @font-face {
+        font-family: "Handel";
+        src: url("Handel_Gothic_Regular.ttf") format("truetype");
+      }
+
+      @font-face {
+        font-family: "ds9_title";
+        src: url("DS9_Title.ttf") format("truetype");
+      }
+      body {
+        background-image: url("images/Ds9.html"), url("images/stars3.gif");
+        background-position: right bottom, left bottom;
+        background-repeat: no-repeat, repeat;
+        background-attachment: fixed, fixed;
+        font-weight: normal;
+        font-style: normal;
+        font-size: 100%;
+        background-color: black;
+        color: #b9c3d7;
+        font-family: helvetica;
+        letter-spacing: 1px;
+        cursor: url("starfleetcursor.png"), auto;
+      }
+      img {
+        max-width: 100%;
+      }
+      h1,
+      h2,
+      h3,
+      h4 {
+        color: #f2a700;
+        text-align: center;
+        font-family: "ds9_title", helvetica;
+        margin: 10px;
+      }
+
+      .menu {
+        list-style-image: url("combadge.html");
+      }
+
+      header {
+        text-align: center;
+        margin-bottom: -4px;
+      }
+      p {
+        font-family: helvetica;
+        text-indent: 1ch;
+      }
+
+      .flex {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 600px;
+        max-width: 100%;
+        align-items: center;
+        margin: auto;
+      }
+
+      .icons {
+        transition: transform 0.2s;
+        text-align: center;
+      }
+
+      .icons:hover {
+        transform: translate(0, 5px);
+      }
+      .sidenav {
+        height: fit-content;
+        width: 250px;
+        position: fixed;
+        z-index: 1;
+        top: 10px;
+        left: 40px;
+        overflow-x: hidden;
+        padding-top: 20px;
+      }
+
+      .sidenav a {
+        padding: 6px 8px 16px;
+        font-size: 1.5em;
+        display: block;
+      }
+
+      a {
+        color: #f2a700;
+        text-decoration: none;
+      }
+
+      a:hover {
+        color: #555a67;
+        cursor: url("starfleetpointer.png"), auto;
+        text-decoration: underline;
+      }
+
+      .main {
+        width: 800px;
+        margin: auto;
+        background-color: black;
+        padding: 20px 30px;
+        border-style: outset;
+        border-width: 6px;
+      }
+
+      .left {
+        float: left;
+        border-style: outset;
+        margin-right: 30px;
+      }
+
+      .right {
+        float: right;
+        border-style: outset;
+        margin-left: 30px;
+      }
+      .text {
+        max-width: 800px;
+        min-height: 350px;
+        margin: 30px auto 0;
+      }
+
+      h3.text {
+        margin-top: 0;
+      }
+
+      hr {
+        margin: 30px 0;
+      }
+
+      .mobile {
+        display: none;
+      }
+
+      .ship {
+        width: 150px;
+        position: fixed;
+        top: 320px;
+        left: 40px;
+      }
+      @media screen and (max-width: 1300px) {
+        .main {
+          width: 750px;
+        }
+      }
+
+      @media screen and (max-width: 850px) {
+        body {
+          background-image: url("stars3.html");
+          background-repeat: repeat;
+          background-attachment: fixed;
+        }
+        .main {
+          width: 100%;
+        }
+
+        .sidenav {
+          width: 100%;
+          position: relative;
+          top: 0;
+          padding-top: 0;
+        }
+        .ship {
+          width: 100px;
+          position: relative;
+          top: 0;
+          left: 0;
+        }
+      }
+      @media screen and (max-width: 500px) {
+        .left {
+          float: none;
+          margin: 0;
+        }
+        .right {
+          float: none;
+          margin: 0;
+        }
+        .flex {
+          display: none;
+        }
+        .mobile {
+          display: block;
+        }
+      }
+    </style>
+    <body>
+      <div class="sidenav">
+        <ul class="menu">
+          <li><a href="#about">About</a></li>
+          <li><a href="#characters">Characters</a></li>
+
+          <li><a href="#fav">Favourite episodes</a></li>
+          <li><a href="#misc">Misc</a></li>
+        </ul>
+
+        <img class="ship" src="images/Defiant.png" alt="Back to Hellmouth" />
+      </div>
+      <header>
+        <img src="images/ds9_cast.png" alt="DS9 Logo" />
+      </header>
+      <div class="main">
+        <h1 id="about">Star Trek: Deep Space Nine</h1>
+        <div style="font-size: 1.5em; text-align: center">
+          Under construction!
+        </div>
+        <p>
+          Deep Space Nine was the third live-action Star Trek TV series, airing
+          from 1993 to 1999. Unlike previous Star Trek series', which were all
+          set on starships, DS9 is set on a space station. This station, Deep
+          Space Nine, was built by the Cardassians, a race of aliens who had
+          been occupying the nearby planet Bajor for decades. At the start of
+          the series, the Bajorans have just freed themselves from this brutal
+          occupation and have asked the United Federation of Planets to help
+          them run the station. Shortly after their arrival, the new crew of the
+          station discovers a nearby wormhole connecting to the gamma quadrant
+          tens of thousands of lightyears away. This is the only stable wormhole
+          in the galaxy and holds religious significance to the Bajorans, who
+          call it the Celestial Temple.
+        </p>
+        <p>
+          DS9 is less episodic than previous Star Treks, more like The X-Files,
+          with a combination of multi-episode/season plots and stand-alone
+          episodes.
+        </p>
+        <hr />
+        <h2 id="characters">The characters:</h2>
+        <p>
+          DS9 has by far my favourite cast of any Star Trek series. I love
+          literally every character and how many of them grow and change in
+          interesting ways. As much as I love Star Trek: The Next Generation
+          (it's a close second favourite after DS9) I was always a little
+          disappointed by how static the characters felt. By the end of the
+          show, the only character who felt any different to me was Data. Though
+          I also think that's part of why I find TNG so comfy to watch; it
+          doesn't change too much. I think because most episodes in DS9 are set
+          in one place rather than exploring the galaxy, and because there is
+          more of an overall plot connecting different episodes, the writers had
+          to spend more time on the relationships between characters.
+        </p>
+        <div class="text">
+          <img class="right" src="images/sisko.jpg" alt="Sisko" />
+          <h3>Commander/Captain Benjamin Sisko</h3>
+
+          <p>
+            My all-time favourite captain (though he only becomes a captain a
+            few seasons in). Sisko is played by Avery Brooks, who also directed
+            several episodes, including two of my favourites, Rejoined and Far
+            Beyond the Stars. I like Sisko because he feels like a regular guy.
+            Unlike many other Star Trek Captains, he has a family that he's
+            close with. He's not an obsessive workaholic and has regular hobbies
+            like cooking and baseball. He's willing to break rules and do some
+            morally grey things for the safety of his crew and the galaxy.
+          </p>
+
+          <p>
+            "So... I lied. I cheated. I bribed men to cover the crimes of other
+            men. I am an accessory to murder. But the most damning thing of
+            all... I think I can live with it. And if I had to do it all over
+            again, I would." — Sisko, "In the Pale Moonlight," Season 6, Episode
+            19
+          </p>
+        </div>
+
+        <div class="text">
+          <img class="left" src="images/jadzia.jpg" alt="Jadzia" />
+          <h3>Jadzia Dax</h3>
+          <p>
+            Chief Science Officer, played by Terry Farrell. Jadzia is a Trill,
+            aliens who are able to surgically join with and host long-lived
+            worm-like creatures called symbionts. After a host's death, the
+            symbiont can be transferred to another host, retaining all memories
+            and experiences. Jadzia's symbiont is named Dax and has had seven
+            hosts before Jadzia, including Curzon, a close friend and mentor to
+            Captain Sisko.
+          </p>
+          <p>
+            Jadzia is one of my favourite characters; I even named
+            <a href="../cats.html">my cat</a> after her. Dax's experiences from
+            previous hosts make her character very interesting and unique. She
+            has a great ability to relate to and form relationships with
+            characters from a variety of alien backgrounds. She's also
+            canonically bi/pansexual, and is the first woman to kiss another
+            woman on Star Trek. Many fans also see her as a trans allegory due
+            to Dax's past hosts having been different genders.
+            <a
+              href="https://www.youtube.com/watch?v=ED5V1KCqbpU"
+              target="_blank"
+              >And this scene.</a
+            >
+          </p>
+        </div>
+        <div class="text">
+          <img class="right" src="images/bashir.jpg" alt="Bashir" />
+          <h3>Doctor Julian Bashir</h3>
+          <p>
+            The chief medical officer, played by Siddig El Fadil/Alexander
+            Siddig. Bashir comes off as self-absorbed at first, with many
+            characters finding him a bit annoying in the beginning. However, as
+            time goes on, he forms very close friendships with the rest of the
+            crew, especially Garak and O'Brien. Many fans have interpreted the
+            relationship between Garak and Bashir as romantic and Garak's actor
+            <a
+              href="https://www.youtube.com/watch?v=OPFErEnLf4I"
+              target="_blank"
+              >has confirmed that this was their intention</a
+            >. Both actors have even performed some
+            <a
+              href="https://www.youtube.com/watch?v=3Tq8zaSObWU"
+              target="_blank"
+              >Garashir fanfic</a
+            >. Their relationship was also confirmed in the Star Trek: Lower
+            Decks game.
+          </p>
+          <p>
+            (after Bashir tells the story of The Boy Who Cried Wolf) Bashir —
+            "The point is, if you lie all the time, nobody's going to believe
+            you even when you're telling the truth."<br />
+            Garak — "Are you sure that's the point, Doctor?"<br />
+            Bashir — "Of course. What else could it be?"<br />
+            Garak — "That you should never tell the same lie twice."<br />
+            "Improbable Cause," Season 3, Episode 20
+          </p>
+        </div>
+
+        <div class="text">
+          <img class="left" src="images/garak.jpg" alt="Elim Garak" />
+          <h3>Elim Garak</h3>
+          <p>
+             Garak, played by Andrew Robinson, is a Cardassian tailor working
+            aboard Deep Space Nine. Garak is a very mysterious character, often
+            making up conflicting stories about his past and why he stayed
+            aboard the station after the occupation. Despite his secretive
+            personality, he develops a close relationship with Dr. Bashir, with
+            whom he enjoys discussing literature and various other topics.
+          </p>
+          <p>
+            I love Garak's personality and the way he talks. He has so many
+            great quotes. I remember the first time I watched DS9, I was so
+            fascinated by him and the mystery surrounding his past and
+            intentions. I also love the relationship between him and Bashir.
+          </p>
+
+          <p>
+            "Well, the truth is usually just an excuse for a lack of
+            imagination." — Garak, "Improbable Cause," Season 3, Episode 20
+          </p>
+        </div>
+        <div class="text">
+          <img class="right" src="images/kira.jpg" alt="Kira" />
+          <h3>Major Kira Nerys</h3>
+          <p>
+            Played by Nana Visitor. The first officer and Bajoran liaison aboard
+            Deep Space Nine. She starts out being suspicious of Starfleet,
+            concerned that the Federation simply wants Bajor for themselves, but
+            eventually begins to trust them. She was a guerilla fighter during
+            the occupation and is very opinionated and resistant to authority.
+            She is also devoutly religious, following the Bajoran religion,
+            which worships the aliens living in the wormhole. This is fairly
+            unique for a Star Trek character of this time, which didn't usually
+            have religious main characters (that I can remember at least).
+          </p>
+          <p>
+            "Everyone has their reasons. That's what's so terrifying; people can
+            find a way to justify any action, no matter how evil." — Kira, "By
+            Inferno's Light," Season 5, Episode 15
+          </p>
+        </div>
+        <div class="text">
+          <img class="left" src="images/odo.jpg" alt="Odo" />
+          <h3>Constable Odo</h3>
+          <p>
+            Odo is the chief of security, played by the late René Auberjonois
+            (who also played the skeleton in The Last Unicorn). He is a
+            shape-shifting alien whose origins are unknown at the start of the
+            series. Odo's natural state is a sort of liquid goop, but he is able
+            to convincingly take the form of many solid creatures and objects.
+            However, he struggles to perfectly emulate humanoid faces. His
+            personality is very rigid, with a strong sense of order and justice,
+            to a fault at times.
+          </p>
+          <p>
+            When I was younger, he was by far my favourite character. On more
+            recent rewatches, I find his character a bit frustrating, but I
+            still like him, especially his interactions with Quark.
+          </p>
+          <p>
+            “Commander, laws change, depending on who's making them. Cardassians
+            one day, Federation the next. But justice is justice.” — Odo, "A Man
+            Alone," Season 1, Episode 4
+          </p>
+        </div>
+        <div class="text">
+          <img class="right" src="images/miles.jpg" alt="Miles" />
+          <h3>Miles O'Brien</h3>
+          <p>
+            The Chief of Operations, played by Colm Meaney. O'Brien also served
+            aboard the Enterprise as transporter chief during Star Trek: TNG.
+            He's married to Keiko O'Brien, with whom he has a daughter. O'Brien
+            frequently goes through traumatic events throughout the series, such
+            as being kidnapped and replaced with a clone or being imprisoned in
+            a mind prison for 20 years. He and Bashir have a close friendship,
+            often playing darts and tennis.
+          </p>
+          <p>O'Brien is pro-union and we love him.</p>
+
+          <p>
+            "(on his ancester, Sean Alocious O'Brien, fictional leader of the
+            1902 coal miner's strike) He was more than a hero, he was a union
+            man." — O'Brien, "Bar Association," Season 4, Episode 16
+          </p>
+        </div>
+
+        <div class="text">
+          <img class="left" src="images/worf.jpg" alt="Quark" />
+          <h3>Worf</h3>
+          <p>
+            Worf had been Chief of Security in TNG before DS9. He joins the cast
+            in season four and is made Strategic Operations Officer. He is
+            played by Michael Dorn. Worf is a Klingon who was raised on Earth by
+            human parents after his parents were killed.
+          </p>
+          <p>
+            Worf was one of my favourite characters in TNG, so I was very
+            excited when he came to DS9. It was great seeing how he interacted
+            with the new characters. He managed to fit in with the existing cast
+            really well. I especially liked his relationship with Jadzia.
+          </p>
+          <p>
+            "Death to the opposition!" — Worf during a basball game, "Take Me
+            Out to the Holosuite," Season 7, Episode 4
+          </p>
+        </div>
+        <div class="text">
+          <img class="right" src="images/quark.jpg" alt="Quark" />
+          <h3>Quark</h3>
+          <p>
+            Quark is played by Armin Shimmermin. Quark owned a bar on the
+            station during the occupation and was coerced into staying aboard by
+            Sisko. He is a Farengi, a race of aliens that typically value the
+            accumulation of wealth above most other things. Quark is often
+            coming up with elaborate, usually illegal, schemes to make money,
+            which puts him at odds with Odo. Despite this, he does have a few
+            heroic moments.
+          </p>
+          <p>
+            "Don't you get it? I'm not trying to rescue you. I'm taking you
+            along as emergency rations. If you die, I'm going to eat you." —
+            Quark to Odo while stranded on a mountain, " The Ascent," Season 5,
+            Episode 9
+          </p>
+        </div>
+
+        <div class="text">
+          <img class="left" src="images/jake.jpg" alt="Jake Sisko" />
+          <h3>Jake Sisko</h3>
+          <p>
+            Jake is Captain Sisko's son and is played by Cirroc Lofton. He's
+            best friends with Nog, Quark's nephew, and the two frequently get up
+            to hijinks. Jake enjoys writing and playing
+            <a
+              href="https://memory-alpha.fandom.com/wiki/Dom-jot"
+              target="_blank"
+              >dom-jot</a
+            >.
+          </p>
+
+          <p>
+            I didn't like Jake at first because I thought he was kind of
+            annoying, but he grew on me after a few seasons. He is the main
+            focus of one of my favourite episodes, season 4, episode 3, "The
+            Visitor." It's an incredibly sad and touching episode that shows the
+            great relationship between Jake and his father.
+          </p>
+        </div>
+        <hr />
+        <h2 id="fav">Favourite Episodes:</h2>
+        <h3>The Visitor</h3>
+        <h3>Far Beyond the Stars</h3>
+        <h3>Bar Association</h3>
+        <hr />
+        <h2 id="misc">Misc stuff</h2>
+        <img src="images/stickers.jpg" alt="stickers" />
+        <p>
+          Some cool DS9 stickers I got from
+          <a href="https://willburrowsart.com/" target="_blank">here.</a> I also
+          got a poster of the artwork from the first sticker!
+        </p>
+      </div>
+      <footer>
+        <div class="flex">
+          <div class="icons">
+            <a href="../neopets/index.html"
+              ><img src="images/prevds9.png" alt="" />
+              <div>Previous</div></a
+            >
+          </div>
+          <div class="icons">
+            <a href="../index.html"
+              ><img src="images/homeds9.png" alt="" />
+              <div>Home</div></a
+            >
+          </div>
+          <div class="icons">
+            <a href="../about.html"
+              ><img src="images/nextds9.png" alt="" />
+              <div>Next</div></a
+            >
+          </div>
+        </div>
+        <div class="mobile icons">
+          <a href="../index.html"
+            ><img src="images/homeds9.png" alt="" />
+            <div>Home</div></a
+          >
+        </div>
+      </footer>
+    </body>
+  </head>
+
+<!-- Mirrored from hell-mouth.neocities.org/ds9/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 12 May 2025 17:54:35 GMT -->
+</html>

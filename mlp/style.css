@@ -1,0 +1,232 @@
+* {
+  box-sizing: border-box;
+  scrollbar-color: #e95882 rgb(241, 248, 255);
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  background-image: url("images/sugarberry_bg.png");
+  height: 100%;
+  background-position: left bottom;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 100%;
+  background-color: #fadbda;
+  color: #e95882;
+  font-family: "Souvenir", garamond;
+  cursor: url("mlpcursor.png"), auto;
+}
+/*TEXT*/
+
+@font-face {
+  font-family: "Soutane";
+  src: url("SoutaneBlackRegular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Souvenir";
+  src: url("SouvenirLightBT.ttf") format("truetype");
+}
+
+header {
+  text-align: center;
+  margin-bottom: -4px;
+}
+
+a {
+  color: #70406c;
+}
+
+a:hover {
+  color: #037fc2;
+  cursor: url("mlppointer.png"), auto;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.9em;
+}
+
+h3 {
+  font-size: 1.7em;
+}
+
+h4 {
+  font-size: 1.5em;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Soutane", garamond;
+  margin: 10px auto 10px auto;
+
+  color: white;
+
+  letter-spacing: 1px;
+  padding: 5px;
+  width: fit-content;
+
+  background-image: linear-gradient(
+    to right,
+    #f16f92 10%,
+    #fbb385,
+    #fcf375,
+    #c5d62f,
+    #56beec,
+    #be83b9 90%
+  );
+
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+ul {
+  list-style-image: url("heart.html");
+  margin: 0;
+}
+
+nav {
+  box-sizing: border-box;
+  overflow: hidden;
+  background-color: rgb(240, 255, 250);
+  border-style: solid;
+  border-width: 6px;
+  max-width: 1100px;
+  margin: 0 auto 20px;
+  z-index: 2;
+  border-radius: 15px;
+  position: sticky;
+  top: 0px;
+}
+
+nav a {
+  float: left;
+  display: block;
+  color: white;
+  font-size: 1.5em;
+  text-align: center;
+  font-family: "Soutane", garamond;
+  padding: 10px 23px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.content {
+  box-sizing: border-box;
+  background-color: rgb(241, 248, 255);
+  border-style: solid;
+  border-width: 6px;
+  width: 1100px;
+  max-width: 100%;
+  margin: auto auto 50px;
+  padding: 5px 5px 20px;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.headings {
+  margin: 30px auto;
+  padding: 20px auto;
+  max-width: 700px;
+}
+
+.headings p {
+  text-indent: 10px;
+  text-align: left;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #be83b9;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.icons {
+  transition: transform 0.2s;
+  text-align: center;
+}
+
+.icons:hover {
+  transform: translate(0, 5px);
+}
+
+.mobile {
+  display: none;
+}
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 650px;
+  height: 95%;
+  align-items: center;
+  margin: auto;
+  padding: 50px 30px;
+  border-style: outset;
+  border-image: url("images/scrollborder.png");
+  border-image-repeat: stretch;
+  border-image-slice: 50 fill;
+  border-image-width: 50px;
+}
+
+@media screen and (max-width: 1024px) {
+  nav a {
+    padding: 10px 13px;
+  }
+}
+@media screen and (max-width: 980px) {
+  nav a {
+    font-size: 1.2em;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  nav {
+    position: relative;
+  }
+  nav a {
+    font-size: 1.2em;
+    padding: 10px;
+    float: none;
+  }
+
+  footer {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+}

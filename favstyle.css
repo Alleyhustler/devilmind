@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+  scrollbar-color: #282828 #151515;
+}
+
+body {
+  text-align: center;
+  background-color: black;
+  letter-spacing: 4px;
+  cursor: url("spearcursor.html"), auto;
+  color: white;
+  font-family: "adobejenson", garamond;
+}
+@font-face {
+  font-family: "pfeffermediaeval";
+  src: url("fonts/PfefferMediaeval.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "adobejenson";
+  src: url("fonts/AdobeJensonProRegular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "adobejenson";
+  src: url("fonts/AdobeJensonProBold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "adobejenson";
+  src: url("fonts/AdobeJensonProItalic.otf") format("opentype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+header {
+  position: relative;
+  text-align: center;
+  margin-bottom: -5px;
+}
+
+.headertext {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+h1 {
+  text-shadow: 10px 5px 10px black;
+  margin-bottom: -10px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "pfeffermediaeval", garamond;
+  color: white;
+}
+
+a:link,
+a:visited,
+a:active {
+  color: #696969;
+  font-size: 1.3em;
+}
+a:hover {
+  color: #910c04;
+  cursor: url("pointercursor.html"), auto;
+}
+
+img {
+  margin: 4px;
+  max-width: 100%;
+}
+
+main {
+  width: 60%;
+  max-width: 1152px;
+  margin: auto;
+  background-color: black;
+  border-style: double;
+  border-color: white;
+  border-width: 6px;
+  padding: 10px 20px;
+}
+
+.text {
+  max-width: 100ch;
+  margin: auto;
+}
+
+.container {
+  max-width: 85%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+figure {
+  margin: 10px;
+}
+
+figcaption {
+  width: 250px;
+}
+
+header {
+  font-size: 1.5em;
+}
+
+@media screen and (max-width: 1500px) {
+  body {
+    background-image: none;
+  }
+  main {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  main {
+    width: 80%;
+  }
+  .headimages {
+    display: none;
+  }
+}
+@media screen and (max-width: 850px) {
+  main {
+    width: 95%;
+  }
+  h1 {
+    margin-bottom: 25px;
+  }
+  header {
+    font-size: 1em;
+  }
+}
